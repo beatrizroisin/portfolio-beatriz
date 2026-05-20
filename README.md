@@ -43,47 +43,8 @@ window.addEventListener('load', () => {
 
 ---
 
-## ✅ PASSO 2 — Configurar o formulário de contato (Formspree)
 
-O formulário usa o **Formspree** — serviço gratuito que recebe os dados
-do form e manda diretamente para o seu e-mail. Sem backend necessário.
-
-### Como configurar:
-
-**1. Crie sua conta gratuita:**
-→ Acesse: https://formspree.io
-→ Clique em "Get Started" e crie conta com seu e-mail
-
-**2. Crie um novo Form:**
-→ No dashboard, clique em "+ New Form"
-→ Dê um nome: "Portfolio Contact"
-→ Copie o **Form ID** gerado (ex: `xyzabcde`)
-
-**3. Cole o ID no HTML:**
-Abra `index.html` e encontre esta linha:
-```html
-action="https://formspree.io/f/SEU_FORMSPREE_ID"
-```
-Substitua `SEU_FORMSPREE_ID` pelo seu ID real:
-```html
-action="https://formspree.io/f/xyzabcde"
-```
-
-**4. Pronto!** Cada mensagem enviada chega no seu e-mail com:
-- Nome do remetente
-- E-mail de contato
-- Assunto
-- Mensagem completa
-
-### Plano gratuito Formspree:
-- ✅ 50 submissions/mês (suficiente para portfólio)
-- ✅ Recebe no e-mail
-- ✅ Sem limite de forms
-- ✅ Anti-spam incluído
-
----
-
-## ✅ PASSO 3 — Trocar seus dados pessoais
+## ✅ PASSO 2 — Trocar seus dados pessoais
 
 Abra `index.html` e substitua os seguintes campos:
 
@@ -95,7 +56,7 @@ Abra `index.html` e substitua os seguintes campos:
 
 ---
 
-## ✅ PASSO 4 — Publicar no Vercel (recomendado)
+## ✅ PASSO 3 — Publicar no Vercel (recomendado)
 
 ### Opção A — GitHub + Vercel (melhor opção)
 
@@ -128,7 +89,7 @@ git push -u origin main
 
 ---
 
-## ✅ PASSO 5 — Domínio customizado (opcional)
+## ✅ PASSO 4 — Domínio customizado (opcional)
 
 Após publicar no Vercel ou Netlify, você pode conectar um domínio próprio
 como `beatrizroisin.dev` — ambas as plataformas oferecem isso gratuitamente
